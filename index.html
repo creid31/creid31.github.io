@@ -1,226 +1,253 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cecili Reid</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" target="_blank" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" target="_blank" href="assets/css/noscript.css" /></noscript>
+		<script>
+			window['_fs_debug'] = false;
+			window['_fs_host'] = 'fullstory.com';
+			window['_fs_script'] = 'fullstory.com/s/fs.js';
+			window['_fs_org'] = 'ERJJ2';
+			window['_fs_namespace'] = 'FS';
+			(function(m,n,e,t,l,o,g,y){
+			    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+			    g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+			    o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+			    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+			    g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+			    g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+			    g.log = function(a,b) { g("log", [a,b]) };
+			    g.consent=function(a){g("consent",!arguments.length||a)};
+			    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+			    g.clearUserCookie=function(){};
+			})(window,document,window['_fs_namespace'],'script','user');
+		</script>
+	</head>
+	<body class="is-preload">
 
-<head>
-  <script>
-  window['_fs_debug'] = false;
-  window['_fs_host'] = 'fullstory.com';
-  window['_fs_org'] = 'ERJJ2';
-  window['_fs_namespace'] = 'FS';
-  (function(m,n,e,t,l,o,g,y){
-      if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-      g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
-      o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-      y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-      g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};g.event=function(i,v){g('event',{n:i,p:v})};
-      g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-      g.consent=function(a){g("consent",!arguments.length||a)};
-      g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-      g.clearUserCookie=function(){};
-  })(window,document,window['_fs_namespace'],'script','user');
-  </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="personal website" content="">
-    <meta name="CeciliReid/smartbootstrap" content="">
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-    <title>Cecili A. Reid</title>
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#speaking" class="icon solid fa-microphone"><span>Speaking</span></a>
+						<a href="#resume" class="icon solid fa-list"><span>Resume</span></a>
+						<a href="#calendar" class="icon fa-calendar-plus"><span>Calendar</span></a>
+						<a target="_blank" href="mailto:cecili@cecilireid.com" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a target="_blank" href="http://github.com/creid31" class="icon solid fa-code"><span>Github</span></a>
+						<a target="_blank" href="https://twitter.com/cecili_reid" class="icon brands fa-twitter"><span>Twitter</span></a>
+						<a target="_blank" href="https://megabytethedoggiebutler.com" class="icon solid fa-dog"><span>Megabyte</span></a>
+					</nav>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+				<!-- Main -->
+					<div id="main">
 
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Cecili Reid</h1>
+									<h4>Senior Software Engineer</h4>
+									<br>
+									<p>"I have no special talent, I am only passionately curious." -Albert Einstein</p>
+								</header>
+								<a href="#speaking" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>Checkout my talks!</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+						<!-- Speaking -->
+							<article id="speaking" class="panel">
+								<header>
+									<h2>Speaking Engagements</h2>
+								</header>
+								<p>
+									I discovered early on the best way for me to learn is by doing
+									and teaching. Speaking at conferences and meetup is a way I do
+									this. Checkout previous talks below.
+								</p>
+								<section>
+									<h3>Future Talks</h3>
+									<br>
+									<div class="row">
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://www.fvcproductions.com/tech-queens/" class="image fit"><img src="images/tech-queens-banner.jpg" alt="techQueensPodcast 2019"></a>
+									    <figcaption class="caption">
+												Tech Queens Podcast 2019
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://devnexus.com/presentations/5107/" class="image fit"><img src="images/devnexus.png" alt="devnexus2020"></a>
+									    <figcaption class="caption">
+												DevNexus 2020
+												An intro to Machine Learning (in JS!)
+											</figcaption>
+										</figure>
+									</div>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+									<br>
+									<h3>Previous Conference Talks</h3>
+									<br>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+									2019
+									<br>
+									<div class="row">
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="#" class="image fit"><img src="images/ruben1.jpg" alt="HYPE Coding Camp Guest Speaker - DevOps & CI/CD"></a>
+											<figcaption class="caption">
+												HYPE Coding Camp Guest Speaker - Summer 2019
+												DevOps & CI/CD
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://devcolorinmotion19.splashthat.com/" class="image fit"><img src="images/dcim2019.jpg" alt="dcim2019"></a>
+											<figcaption class="caption">
+												Dev/Color In Motion (DCIM) 2019
+												Mastering Machine Learning: Intro to Tensorflow
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://www.meetup.com/gdg-atlanta/events/261070951/" class="image fit"><img src="images/wtm2019.jpeg" alt="wtm2019"></a>
+											<figcaption class="caption">
+												Atlanta Women Tech Maker (WTM) May 2019
+												Developers + GKE = Happy DevOps Teams
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://www.codeprep.io/podcast/030/" class="image fit"><img src="images/codePrepPodcast.png" alt="dcim2019"></a>
+											<figcaption class="caption">
+												CodePrep Podcast May 2019
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<iframe src="https://www.youtube.com/embed/40SJH4fuJR4"
+												frameborder="0"
+												allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen></iframe>
+											<figcaption class="caption">
+												#sheLovesMatlab Video 2019
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://devnexus.com/archive/devnexus2019/presentations/2785/" class="image fit"><img src="images/devnexus.png" alt="devnexus2019"></a>
+									    <figcaption class="caption">
+												DevNexus 2019
+												TDD, BDD, and Java Oh My!
+											</figcaption>
+										</figure>
+									</div>
 
-</head>
+									<hr>
+									2018
+									<br>
+									<div class="row">
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://fall2018.hack.gt" class="image fit"><img src="images/hackgt2018.jpg" alt="hackGT2018"></a>
+											<figcaption class="caption">
+												HackGT 2018
+												Session on NCR's Omnichannel APIs
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://2018.hackthenorth.com/" class="image fit"><img src="images/ruben2.jpg" alt="hackTheNorth2018"></a>
+											<figcaption class="caption">
+												Hack the North 2018
+												Getting Started with NCR's Omni-Channel Decision Support Platform API
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<a target="_blank" href="https://hackgsu-fall-2018.devpost.com/" class="image fit"><img src="images/hackGSU2018.jpg" alt="hackGSU2018"></a>
+											<figcaption class="caption">
+												Hack GSU 2018
+												Getting Started with NCR's Omni-Channel Decision Support Platform API
+											</figcaption>
+										</figure>
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<iframe src="https://www.youtube.com/embed/v3GoDw88TyE"
+												frameborder="0"
+												allow="accelerometer; autoplay; encrypted-media; gyroscope;
+												picture-in-picture" allowfullscreen>
+											</iframe>
+											<figcaption class="caption">
+												Georgia Tech First Generation College Student Interview 2018
+											</figcaption>
+										</figure>
+									</div>
 
-<body id="page-top">
+									<hr>
+									2017
+									<br>
+									<div class="row">
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<iframe src="https://www.youtube.com/embed/l15PGQQSfrI"
+												frameborder="0"
+												allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen>
+											</iframe>
+											<figcaption class="caption">
+												Atlanta Ruby User Group 2017 Meetup
+												Awesome Git Tricks
+											</figcaption>
+										</figure>
+									</div>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Cecili A. Reid</a>
-            </div>
+									<hr>
+									2016
+									<br>
+									<div class="row">
+										<figure class="col-4 col-6-medium col-12-small fig">
+											<iframe src="https://www.youtube.com/embed/9rUDvGJy0tw"
+												frameborder="0"
+												allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen>
+											</iframe>
+											<figcaption class="caption">
+												Atlanta Ruby User Group 2016
+												Ruby Careers Panel
+											</figcaption>
+										</figure>
+									</div>
+								</section>
+							</article>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Interests</a>
-                    </li>
-<!--                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+						<!-- Resume -->
+							<article id="resume" class="panel">
+								<iframe src="images/CeciliReidResumeOct2019.pdf" width="100%" height="500px" onload = function() {this.contentWindow.location.reload(); this.onload = null;};></iframe>
+							</article>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2>Developer | Researcher | Student</h2>
-                    <hr>
-                    <h3 class="text-primary"> “I have no special talent, I am only passionately curious.”– Albert Einstein</h3>
-                </div>
-            </div>
-        </div>
-    </header>
+						<!-- Calendly -->
+							<article id="calendar" class="panel">
+								<!-- Calendly inline widget begin -->
+								<div class="calendly-inline-widget" data-url="https://calendly.com/cecili-reid" style="min-width:320px;height:630px;"></div>
+								<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+								<!-- Calendly inline widget end -->
+							</article>
+					</div>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Life-long Learner</h2>
-                    <hr class="light">
-                    <p class="text-faded">I am an Atlanta-based full-stack developer and self-proclaimed life-longer learner. I like to pick up new languages and embrace my passion for learning.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Cecili Reid 2019.</li><li>Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Passions & Interests</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code wow bounceIn text-primary"></i>
-                        <h3>Programming</h3>
-                        <p class="text-muted">Self-taught: Ruby on Rails, SQL, Bash, Javascript, Perl, PHP, Python
-                        <br>Classically-trained: Java, MATLAB, C</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-question wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Research</h3>
-                        <p class="text-muted">Currently fascinated with Cybersecurity, Machine Learning and the Internet of Things<br>Previously researched Computer Education and Human Computer Interaction</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Community Service</h3>
-                        <p class="text-muted">Active participant in Toastmasters and the go to person for company-led community service events</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+			</div>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Checkout My Resume!</h2>
-                <a href="CeciliReid.pdf" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>I said something that interested you? Send me an email or reach out via social media. I look forward to hearing from you!</p>
-                </div>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <i class="fa fa-linkedin fa-3x wow bounceIn"></i>
-                <p><a href="http://www.linkedin.com/in/cecilireid">www.linkedin.com/in/cecilireid</a></p>
-
-                <i class="fa fa-twitter fa-3x wow bounceIn"></i>
-                <p><a href="https://twitter.com/_worldMaverick">twitter.com/cecili_reid</a></p>
-
-		            <i class="fa fa-github fa-3x wow bounceIn"></i>
-      		      <p><a href="https://github.com/creid31">github.com/creid31</a></p>
-
-                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:cecili.reid@gmail.com">cecili.reid@gmail.com</a></p>
-
-                <i class="fa fa-calendar fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="https://calendly.com/cecili-reid">calendly.com/cecili-reid</a></p>
-            </div>
-        </div>
-    </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Help me improve my website</h2>
-                <a href="https://github.com/creid31/creid31.github.io/issues/new" class="btn btn-default btn-xl">Create Github Issue</a>
-            </div>
-        </div>
-    </aside>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
-</body>
-
+	</body>
 </html>
